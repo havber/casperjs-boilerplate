@@ -1,7 +1,7 @@
 #Test boilerplate
 
 ###Instructions
-Clone this repo
+Clone this repo, then
 
 ```npm install```
 
