@@ -1,0 +1,6 @@
+{
+  "description": "Boilerplate for project with the casperjs test framework",
+  "devDependencies": {
+    "casperjs": "^1.1.0-beta3"
+  }
+}
