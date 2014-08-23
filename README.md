@@ -1,4 +1,4 @@
-#Test boilerplate
+#CasperJS boilerplate
 
 ###Instructions
 Clone this repo, then
