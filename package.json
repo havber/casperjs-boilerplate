@@ -1,7 +1,7 @@
 {
   "description": "Boilerplate for project with the casperjs test framework",
   "scripts": {
-        "test-html": "casperjs test test/*"
+        "test-html": "for f in test/*.js; do casperjs test $f ; done"
   },
   "devDependencies": {
     "casperjs": "^1.1.0-beta3"
