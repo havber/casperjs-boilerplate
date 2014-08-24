@@ -1,11 +1,14 @@
-// googletesting.js
+var utils = require('utils');
+
 casper.test.begin('Page', 3, function suite(test) {
+
+    // Using some of casperjs's dom assertions
     casper.start("http://localhost:8000/", function() {
-//      test.assertTitle("Google", "google homepage title is the one expected");
         test.assertTitle('CasperJS Boilerplate', 'Title equals CasperJS Boilerplate');
         test.assertElementCount('h1', 2);
     });
 
+    // evaluating dom operations
     casper.then(function() {
         var h1s = this.evaluate(function() {
             return document.querySelectorAll('h1');

@@ -7,3 +7,5 @@ Clone this repo, then
 
 To make casperjs available from command line:
 ```cd node_modules/casperjs && npm link```
+
+Run HTML-tests with ```npm run test-html```
